@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(roses-2191636_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flex {
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(176, 12, 121);
+  list-style: none;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main ul li {
+  font-size: 20px;
+  font-weight: 10px bold;
+}
+
+#main ul li a {
+  color: rgb(249, 201, 255);
+  text-decoration: none;
+}
+
+#main ul .bloom {
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 80px;
+  margin-top: 100px;
+  color: rgb(120, 12, 80);
+  margin-left: 100px;
+  height: 500px;
+  /* border: 1px solid rgb(212, 142, 188); */
+  width: 600px;
+}
+.htext {
+  font-size: 20px;
+}
+button {
+  border-radius: 50px;
+  color: rgb(147, 30, 92);
+  font-size: 20px;
+  border: 1px solid rgb(249, 201, 255);
+  background-color: rgb(249, 201, 255);
+  width: 300px;
+  height: 50px;
+}
