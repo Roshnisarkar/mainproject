@@ -1,0 +1,55 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#change{
+    margin-top: 20px;
+    width: 80%;
+    height: 60vh;
+    border: 2px solid darkgray;
+
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.flex2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+
+
+button{
+width: 20%;
+height: 5vh;
+
+}
+#btn1{
+    color: aliceblue;
+    font-size: 20px;
+    background-color: crimson;
+    border: 1px solid rgb(240, 19, 63);
+}
+
+#btn2{
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(100, 220, 20);
+    border: 1px solid rgb(107, 240, 19);
+}
+
+#btn3{
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(20, 127, 220);
+    border: 1px solid rgb(19, 129, 240);
+}
